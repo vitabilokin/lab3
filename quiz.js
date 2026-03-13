@@ -102,7 +102,7 @@ answerForm.addEventListener("submit", function(e) {
     }
 });
 
-// Сучасний обробник події для кнопки "Наступне питання"
+
 nextBtn.addEventListener("click", function() {
     currentQuiz++;
     
@@ -114,5 +114,6 @@ nextBtn.addEventListener("click", function() {
         nextBtn.classList.add("hidden");
     }
 });
+
 
 loadQuiz();
