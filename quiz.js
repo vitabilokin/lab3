@@ -85,9 +85,9 @@ answerForm.addEventListener("submit", function(e) {
     const input = label.querySelector('input');
     
     if (input.value === currentData.correct) {
-        label.classList.add("correct-bg"); // Додаємо посилений клас
+        label.classList.add("correct-bg"); 
     } else if (input.checked) {
-        label.classList.add("wrong-bg");   // Додаємо посилений клас
+        label.classList.add("wrong-bg");   
     }
     input.disabled = true;
 });
@@ -117,3 +117,4 @@ nextBtn.addEventListener("click", function() {
 
 
 loadQuiz();
+
