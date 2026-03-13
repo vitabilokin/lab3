@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js" defer></script>
+</head>
+<body>
+
+<div class="quiz-container">
+    <div id="quiz">
+        <h2 id="question">Тут буде питання</h2>
+        <form id="answer-form">
+            <div id="options">
+                </div>
+            <button type="submit" id="submit-btn">Відправити відповідь</button>
+        </form>
+    </div>
+    
+    <div id="result-container" class="hidden">
+        <p id="current-score">Ваш результат: 0</p>
+        <button id="next-btn" class="hidden">Наступне питання</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
